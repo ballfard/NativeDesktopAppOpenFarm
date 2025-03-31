@@ -4,8 +4,8 @@ using Avalonia.Data.Core;
 using Avalonia.Data.Core.Plugins;
 using System.Linq;
 using Avalonia.Markup.Xaml;
-using NativeDesktopAppOpenFarm.ViewModels;
 using NativeDesktopAppOpenFarm.Views;
+using NativeDesktopAppOpenFarm.ViewModels;
 
 namespace NativeDesktopAppOpenFarm;
 
