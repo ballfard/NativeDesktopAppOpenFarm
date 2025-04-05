@@ -18,6 +18,7 @@
 		<TabControl Grid.Row="0"
                     Background="Transparent"
                     Padding="0"
+                    Margin="200,10"
                     TabStripPlacement="Top"
 					HorizontalAlignment="Stretch"
                     VerticalAlignment="Stretch"
@@ -38,9 +39,9 @@
 				</Style>
 				<!-- Normal tab styling -->
 				<Style Selector="TabItem">
-					<Setter Property="Padding" Value="15 5"/>
+					<Setter Property="Padding" Value="10 4"/>
 					<Setter Property="Margin" Value="0 0 4 0"/>
-					<Setter Property="FontSize" Value="14"/>
+					<Setter Property="FontSize" Value="12"/>
 					<Setter Property="Foreground" Value="#BDAE93"/>
 					<Setter Property="HorizontalAlignment" Value="Stretch"/>
 					<Setter Property="HorizontalContentAlignment" Value="Center"/>
