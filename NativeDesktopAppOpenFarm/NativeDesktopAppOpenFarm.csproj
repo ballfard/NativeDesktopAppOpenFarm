@@ -27,4 +27,10 @@
     <PackageReference Include="ReactiveUI" Version="20.2.45" />
     <PackageReference Include="System.Reactive" Version="6.0.1" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\HomeView.axaml.cs">
+      <DependentUpon>HomeView.axaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

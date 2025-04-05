@@ -39,7 +39,7 @@ namespace NativeDesktopAppOpenFarm.ViewModels
             switch (SelectedTabIndex)
             {
                 case 0:
-                    CurrentViewModel = new PlaceholderViewModel("Home");
+                    CurrentViewModel = new HomeViewModel();
                     break;
                 case 1:
                     CurrentViewModel = new PlaceholderViewModel("Queue");
